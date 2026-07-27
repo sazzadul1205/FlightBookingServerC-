@@ -4,7 +4,7 @@ namespace FlightBooking.Models
     {
         public int Id { get; set; }
 
-        public int? UserId { get; set; }
+        public int UserId { get; set; }
 
         public string? AirlineCode { get; set; }
 
